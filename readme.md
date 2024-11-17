@@ -1,0 +1,1 @@
+Un SPA que permite el CRUD de productos del lado del cliente (FRONT) interactuando con una fuente de datos (BACK) y aplicando conceptos de asincronia, solicitudes HTTP, validacion de formularios y demas.
