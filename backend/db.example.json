@@ -1,0 +1,10 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "name": "Ejemplo de producto",
+      "price": 100,
+      "image": "../img/nombre-de-la-imagen.extension"
+    }
+  ]
+}
