@@ -10,62 +10,29 @@
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/02b2ba4a5f.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/style/home.css">
+  <link rel="stylesheet" href="../style/home.css">
   <title>AluraGeek</title>
 </head>
 
 <body>
   <header>
     <div class="logo__header__footer">
-      <img src="../img/imgHeaderGeek.jpg" alt="">
+      <img src="../img/imgHeaderGeek.jpg" alt="Imagen de Corazones-logo AluraGeek">
       <p>AluraGeek</p>
     </div>
   </header>
   <main class="container">
     <section class="list__products">
       <h2>MIS PRODUCTOS:</h2>
-      <div class="products">
-        <!-- <div class="product">
-          <img src="../img/stormtrooper.jpg" alt="Stormtrooper">
-          <p class="product__name">Stormtrooper</p>
-          <div class="product__info">
-            <p class="product__info__price">$ 60,00</p>
-            <i class="fa-solid fa-trash-can"></i>
-          </div>
-        </div>
-        <div class="product">
-          <img src="../img/gameboy.jpg" alt="Game Boy Classic">
-          <p class="product__name">Game Boy Classic</p>
-          <div class="product__info">
-            <p class="product__info__price">$ 60,00</p>
-            <i class="fa-solid fa-trash-can"></i>
-          </div>
-        </div>
-        <div class="product">
-          <img src="../img/stormtrooper.jpg" alt="Stormtrooper">
-          <p class="product__name">Stormtrooper</p>
-          <div class="product__info">
-            <p class="product__info__price">$ 60,00</p>
-            <i class="fa-solid fa-trash-can"></i>
-          </div>
-        </div>
-        <div class="product">
-          <img src="../img/stormtrooper.jpg" alt="Stormtrooper">
-          <p class="product__name">Stormtrooper</p>
-          <div class="product__info">
-            <p class="product__info__price">$ 60,00</p>
-            <i class="fa-solid fa-trash-can"></i>
-          </div>
-        </div> -->
-         <!-- Repetir los productos según sea necesario -->
+      <div class="products" data-lista>
       </div>
     </section>
     <section class="add-product">
-      <form>
+      <form data-formulario>
         <h2>AGREGAR PRODUCTO:</h2>
-        <input type="text" placeholder="nombre...">
-        <input type="text" placeholder="precio...">
-        <input type="text" placeholder="imagen...">
+        <input name="nombre" type="text" placeholder="nombre..." required data-nombre>
+        <input name="precio" type="number" placeholder="precio..." required data-precio>
+        <input name="imagen" type="text" placeholder="imagen..." required data-imagen>
         <div class="box__buttons__form">
           <button type="submit">Enviar</button>
           <button type="reset">Limpiar</button>
@@ -75,7 +42,7 @@
   </main>
   <footer>
     <div class="logo__header__footer">
-      <img src="../img/imgHeaderGeek.jpg" alt="">
+      <img src="../img/imgHeaderGeek.jpg" alt="Imagen de Corazones-logo AluraGeek">
       <p>AluraGeek</p>
     </div>
     <div>
@@ -85,6 +52,7 @@
   </footer>
 
   <script src="../javascript/home.js" type="module"></script>
+
 </body>
 
 </html>
