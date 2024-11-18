@@ -9,6 +9,7 @@
   "author": "Emiliano G. Ferryra",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.21.1",
     "json-server": "^1.0.0-beta.3"
   }
 }
